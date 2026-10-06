@@ -64,7 +64,7 @@
 
 **从文件导入**：直接选择 `Thompson0075_GKD.json5` 文件。
 
-**从链接导入**（推送到 GitHub 后）：
+**从链接导入**：
 
 ```
 https://raw.githubusercontent.com/Thompson0075/gkd-subscription/master/Thompson0075_GKD.json5
