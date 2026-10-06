@@ -152,7 +152,7 @@ https://cdn.jsdelivr.net/gh/Thompson0075/gkd-subscription@master/Thompson0075_GK
 
 感谢以下规则维护者的辛勤付出：
 
-- **Lin-arm (👻)** — 提供最全面的合并骨架
+- **Lin-arm** — 提供最全面的合并骨架
 - **甘霖 (ganlinte)** — 细粒度的规则定义
 - **梦念逍遥 (MengNianxiaoyao)** — 持续维护的优质规则
 - **奥怪 (aoguai)** — 精准的应用适配
