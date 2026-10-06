@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/Thompson0075/gkd-subscription/master/Thompson0
 国内镜像（推荐）：
 
 ```
-https://cdn.jsdelivr.net/gh/Thompson0075/gkd-subscription@master/Thompson0075_GKD.json5)
+https://cdn.jsdelivr.net/gh/Thompson0075/gkd-subscription@master/Thompson0075_GKD.json5
 ```
 
 ### 4. 启用规则
