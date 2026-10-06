@@ -88,7 +88,7 @@ https://cdn.jsdelivr.net/gh/Thompson0075/GKD@main/Thompson0075_GKD.json5
 
 | 来源                                                         | 作者        | 角色       | 协议    |
 | ------------------------------------------------------------ | ----------- | ---------- | ------- |
-| [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) | 👻 (Lin-arm) | 主框架     | 未声明  |
+| [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) | Lin-arm | 主框架     | 未声明  |
 | [ganlinte/GKD-subscription](https://github.com/ganlinte/GKD-subscription) | 甘霖        | 并入规则   | MIT     |
 | [MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription) | 梦念逍遥    | 并入规则   | 未声明  |
 | [aoguai/subscription](https://github.com/aoguai/subscription) | 奥怪        | 并入规则   | GPL-3.0 |
