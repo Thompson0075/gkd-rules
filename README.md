@@ -1,4 +1,4 @@
-# Thompson0075 的 GKD 订阅
+# Thompson0075 的 GKD 整合
 
 > 多源融合 · 开箱即用
 
