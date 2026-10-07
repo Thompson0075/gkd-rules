@@ -1,35 +1,123 @@
-MIT License
+Thompson0075 GKD Subscription License
+版本 / Version: 2026-10-08
 
 Copyright (c) 2026 Thompson0075
+本订阅整合作品的编排、合并、去重与文档部分著作权归 Thompson0075 所有。
+各订阅源内的原始规则著作权仍归各原作者所有（见文末「第三方声明」）。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+────────────────────────────────────────
+一、许可性质（License Nature）
+────────────────────────────────────────
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+本仓库发布的是「仅供个人学习与技术研究」的 GKD 规则订阅整合，
+不是开源软件许可证，也不是对公众的无条件使用授权。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+在遵守下列全部条款的前提下，著作权人授予你一项有限的、
+不可转让的、可随时撤销的免费使用权，用于：
 
----
+  1. 个人设备上的自动化去广告 / 跳过流程等学习研究；
+  2. 对规则语法与 GKD 引擎的技术研究；
+  3. 在保留完整出处声明的前提下，仅供自己与亲友非商业使用。
 
-## 致谢 / Acknowledgments
+────────────────────────────────────────
+二、明确禁止（Prohibited Uses）
+────────────────────────────────────────
 
-本订阅规则整合自以下开源项目，规则著作权归各原作者所有：
+未经著作权人书面许可，禁止以下行为（此列表非穷尽）：
 
-- Lin-arm/GKD_subscription — 未声明许可证
-- ganlinte/GKD-subscription — MIT License
-- MengNianxiaoyao/gkd-subscription — 未声明许可证
-- aoguai/subscription — GPL-3.0 License
-- oklazeno/gkd-subscription — 整合版
+  1. 违法违规
+     将本作品用于任何违反中华人民共和国法律法规、公序良俗，
+     或使用地适用法律的行为；包括但不限于：
+     - 绕过付费 / 会员 / 鉴权、破解、盗版、侵犯著作权；
+     - 干扰、破坏他人计算机信息系统或网络服务；
+     - 侵犯他人隐私、个人信息或商业秘密；
+     - 诈骗、赌博、色情、暴力、危害国家安全等违法内容的传播或协助；
+     - 对金融、支付、政务、医疗等高风险系统的自动化操作。
 
-本仓库仅做整理、合并与去重工作，未修改规则实质内容。
+  2. 商业使用
+     - 出售、出租、转售本作品或以其为主要卖点的商品 / 服务；
+     - 将本作品嵌入收费 App、付费订阅、流量变现、广告分成；
+     - 未经许可的二次分发、镜像、打包进商业产品或应用商店。
+
+  3. 恶意利用
+     - 删除、伪造本文件、LICENSE 或「第三方声明」；
+     - 将本作品冒充为自己的原创作品；
+     - 利用本作品实施自动化点击骚扰、刷单、作弊、流量欺诈。
+
+  4. 转授权限制
+     你不得以自己的名义对本作品再许可（sublicense）或
+     声称拥有其著作权；衍生整合请保留上游出处并另行声明。
+
+────────────────────────────────────────
+三、免责声明（Disclaimer）
+────────────────────────────────────────
+
+本作品按「现状」（AS IS）提供，不附带任何形式的明示或默示担保，
+包括但不限于适销性、特定用途适用性与非侵权的保证。
+
+自动化点击存在固有风险。规则可能因 App 改版失效、误触发、
+造成误操作或财产损失。使用者应自行评估风险：
+
+  - 银行 / 支付 / 政务类应用建议仅启用「开屏广告」等极保守规则；
+  - 误触后应立即关闭对应规则组；
+  - 不建议与其他订阅叠加使用。
+
+在任何情况下，著作权人、贡献者、上游原作者均不对因使用或
+无法使用本作品而产生的任何直接、间接、附带、特殊、惩罚性
+或后果性损害承担责任，包括但不限于财产损失、数据丢失、
+服务中断、法律责任或行政处罚。
+
+使用者因使用本作品而违反法律法规或第三方权利的，由使用者
+自行承担全部法律责任；著作权人保留追究恶意传播与商业滥用者
+法律责任的权利。
+
+────────────────────────────────────────
+四、第三方声明（Upstream Credits & Licenses）
+────────────────────────────────────────
+
+本订阅为多源整合，原始规则著作权归各原作者所有：
+本仓库仅做整理、合并、去重与版本化，不主张对原始规则的著作权。
+
+  来源                              作者            原始许可
+  ────────────────────────────────────────────────────────────
+  Lin-arm/GKD_subscription          👻 (Lin-arm)    未声明（All Rights Reserved，按上游条款）
+  ganlinte/GKD-subscription         甘霖            MIT License
+  MengNianxiaoyao/gkd-subscription  梦念逍遥        未声明（All Rights Reserved，按上游条款）
+  aoguai/subscription               奥怪            GPL-3.0
+  oklazeno/gkd-subscription         oklazeno        整合版（按其仓库声明）
+
+特别说明：
+  - 含 aoguai（GPL-3.0）来源的规则部分，仍受 GPL-3.0 约束；
+    将这些规则用于对外分发的衍生作品时，你必须自行评估并遵守
+    GPL-3.0 的传染性义务。本文件不替代也不豁免 GPL-3.0。
+  - 对「未声明」许可的来源，视为原作者保留全部权利；本整合
+    仅在合理使用 / 学习研究范围内进行编排，不主张独占权利。
+  - 任何商业、公开分发或衍生产品行为，你有义务自行核对并遵守
+    全部上游许可。若上游条款与本文件冲突，以对该来源可适用的
+    上游条款为准。
+
+GKD 引擎本身（gkd-kit/gkd）以 GPL-3.0 发布，其商标与品牌归
+原作者所有。本作品与 GKD 官方无隶属、背书或合作关系。
+
+────────────────────────────────────────
+五、终止（Termination）
+────────────────────────────────────────
+
+若你违反本文件任何条款，你的使用权自动终止，且应立即停止
+使用并销毁本作品的副本。著作权人保留追究违约与侵权责任的权利。
+
+────────────────────────────────────────
+六、适用法律（Governing Law）
+────────────────────────────────────────
+
+本文件适用中华人民共和国法律（不含冲突规范）。
+因本作品产生的争议，应先友好协商；协商不成的，提交著作权人
+所在地有管辖权的人民法院诉讼解决。
+
+────────────────────────────────────────
+七、完整性
+────────────────────────────────────────
+
+本文件（连同 README「免责声明」与「第三方声明」）构成关于
+本作品使用条件的完整说明。使用即表示你已阅读、理解并接受
+上述全部条款；若不同意，请勿使用、传播本作品。
