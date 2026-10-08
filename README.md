@@ -61,13 +61,13 @@
 **从链接导入**：
 
 ```
-https://raw.githubusercontent.com/Thompson0075/gkd-subscription/master/Thompson0075_GKD.json5
+https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD.json5
 ```
 
 国内镜像（推荐）：
 
 ```
-https://cdn.jsdelivr.net/gh/Thompson0075/gkd-subscription@master/Thompson0075_GKD.json5
+https://cdn.jsdelivr.net/gh/Thompson0075/gkd-rules@master/Thompson0075_GKD.json5
 ```
 
 ### 4. 启用规则
