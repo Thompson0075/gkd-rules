@@ -6,21 +6,21 @@
 
 ## 简介
 
-本订阅是对多个社区优质 GKD 订阅规则的**整合与优化**，将五个订阅源的精华规则融合为一份，消除重复、补全缺口，让你只需导入一个订阅即可获得最全面的广告跳过体验。
+本订阅是对多个社区优质 GKD 订阅规则的**整合与优化**，将七个订阅源的精华规则融合为一份，消除重复、补全缺口，让你只需导入一个订阅即可获得最全面的广告跳过体验。
 
 ---
 
 ## 订阅规模
 
-| 指标         | 数量          |
-| ------------ | ------------- |
-| 覆盖应用     | **1,043 个**  |
-| 应用规则组   | **3,062 个**  |
-| 应用规则数   | **29,488 条** |
-| 全局规则组   | **9 个**      |
-| 全局规则数   | **63 条**     |
-| **规则总计** | **29,551 条** |
-| 规则分类     | 11 类         |
+| 指标         | 数量         |
+| ------------ | ------------ |
+| 覆盖应用     | **1,067 个** |
+| 应用规则组   | **3,255 个** |
+| 应用规则数   | **5,997 条** |
+| 全局规则组   | **9 个**     |
+| 全局规则数   | **59 条**    |
+| **规则总计** | **6,056 条** |
+| 规则分类     | 11 类        |
 
 ### 规则分类一览
 
@@ -64,11 +64,6 @@
 https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD.json5
 ```
 
-国内镜像（推荐）：
-
-```
-https://cdn.jsdelivr.net/gh/Thompson0075/gkd-rules@master/Thompson0075_GKD.json5
-```
 
 ### 4. 启用规则
 
@@ -80,21 +75,30 @@ https://cdn.jsdelivr.net/gh/Thompson0075/gkd-rules@master/Thompson0075_GKD.json5
 
 本订阅是多源融合的成果，规则著作权归各原作者所有：
 
-| 来源                                                         | 作者        | 角色       | 协议    |
-| ------------------------------------------------------------ | ----------- | ---------- | ------- |
-| [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) | Lin-arm | 主框架     | 未声明  |
-| [ganlinte/GKD-subscription](https://github.com/ganlinte/GKD-subscription) | 甘霖        | 并入规则   | MIT     |
-| [MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription) | 梦念逍遥    | 并入规则   | 未声明  |
-| [aoguai/subscription](https://github.com/aoguai/subscription) | 奥怪        | 并入规则   | GPL-3.0 |
-| [oklazeno/gkd-subscription](https://github.com/oklazeno/gkd-subscription) | oklazeno    | 银行类补充 | 整合版  |
+| 来源                                                         | 作者     | 角色       | 协议                                     |
+| ------------------------------------------------------------ | -------- | ---------- | ---------------------------------------- |
+| [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) | Lin-arm  | 主框架     | 未声明                                   |
+| [ganlinte/GKD-subscription](https://github.com/ganlinte/GKD-subscription) | 甘霖     | 并入规则   | MIT                                      |
+| [MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription) | 梦念逍遥 | 并入规则   | 未声明                                   |
+| [aoguai/subscription](https://github.com/aoguai/subscription) | 奥怪     | 并入规则   | GPL-3.0                                  |
+| [oklazeno/gkd-subscription](https://github.com/oklazeno/gkd-subscription) | oklazeno | 银行类补充 | 整合版                                   |
+| [mrlctate/gkd-mrlc](https://github.com/mrlctate/gkd-mrlc)    | mrlctate | 并入规则   | 【受限】禁止转发/发布/传播（见 LICENSE） |
+| [yanmuq/muqi_gkd](https://github.com/yanmuq/muqi_gkd/)       | yanmuq   | 补充规则   | 【受限】禁止国内平台传播（见 LICENSE）   |
 
 ### 合并策略
 
-1. **以 Lin-arm 为主框架**：规则选择器精度高、覆盖最全（982 个应用）
-2. **多源去重**：按 `(应用包名, 规则组名)` 二元组去重，同应用同 key 保留最全面版本
-3. **内容签名去重**：oklazeno 约 75% 的"新 key"组实为同内容异 key，已跳过 1,083 个避免膨胀
-4. **全局规则按名称匹配**：跨源 key 语义不可对齐，按规则名称去重合并
-5. **缺口补全**：从各源提取独有的 app 和规则组，补全覆盖盲区
+1. **以 Lin-arm 为主框架**：规则选择器精度高、覆盖最全
+2. **按 `(应用包名, 规则组名)` 合并多源**：同名规则组取并集，元数据（快照、安全参数）取最全版本
+3. **组内规则去重**：完全相同、同目标变体（`vid`/完整 `id` 写法差异、选择器措辞差异）只保留更好的一版——快照验证多、约束更准、带 `vid` 写法者优先
+4. **重复功能规则组合并**：内容一致或规则高度重叠（≥80% 且过半）的规则组合并为一，保留元数据更全、带 V5 key 的版本
+5. **全局规则组按分类核心名合并**：如「开屏广告-全局」「开屏广告」并为一组
+6. **key 稳定性**：已有规则组/规则的 `key` 一律保留（GKD 要求 key 设定后不可更改，否则点击记录错乱），仅新增内容分配新 key
+7. **损坏修复**：V5 历史合并产生的字符拆散损坏规则已从上游完整版本恢复
+
+## 版本记录
+
+- **V6**（2026-11-03）：整合 8 个上游订阅源的最新更新（新增 2 个应用、234 个规则组）；修复 23 组字符损坏规则；合并 1,131 条重复规则与 517 个重复规则组；全局规则组按分类归并为 9 组。
+- **V5**：首次多源融合版本。
 
 ---
 
@@ -103,8 +107,6 @@ https://cdn.jsdelivr.net/gh/Thompson0075/gkd-rules@master/Thompson0075_GKD.json5
 - **金融/支付类**：银行类规则采用保守匹配，已排除「还款/转账/支付/确认/提交/申请」等业务动作关键词
 - **默认保守**：仅「开屏广告」默认开启，其余 10 类默认关闭，避免误触
 - **防误触**：全局规则配备 `matchTime`、`actionMaximum`、`resetMatch` 等防误触参数
-
-## 
 
 ## 常见问题
 
