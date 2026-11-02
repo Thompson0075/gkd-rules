@@ -102,7 +102,7 @@ https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD
 
 ## 安全设计
 
-- **金融/支付类**：银行类规则采用保守匹配，已排除「还款/转账/支付/确认/提交/申请」等业务动作关键词
+- **金融/支付类**：根据oklazeno的规则采用保守匹配，排除「还款/转账/支付/确认/提交/申请」等业务动作关键词
 - **默认保守**：仅「开屏广告」默认开启，其余 10 类默认关闭，避免误触
 - **防误触**：全局规则配备 `matchTime`、`actionMaximum`、`resetMatch` 等防误触参数
 
