@@ -83,9 +83,10 @@ https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD
 | [ganlinte/GKD-subscription](https://github.com/ganlinte/GKD-subscription) | 甘霖     | 并入规则   | MIT                                      |
 | [MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription) | 梦念逍遥 | 并入规则   | 未声明                                   |
 | [aoguai/subscription](https://github.com/aoguai/subscription) | 奥怪     | 并入规则   | GPL-3.0                                  |
-| [oklazeno/gkd-subscription](https://github.com/oklazeno/gkd-subscription) | oklazeno | 银行类补充 | 整合版                                   |
 | [mrlctate/gkd-mrlc](https://github.com/mrlctate/gkd-mrlc)    | mrlctate | 并入规则   | 【受限】禁止转发/发布/传播（见 LICENSE） |
 | [yanmuq/muqi_gkd](https://github.com/yanmuq/muqi_gkd/)       | yanmuq   | 补充规则   | 【受限】禁止国内平台传播（见 LICENSE）   |
+| [oklazeno/gkd-subscription](https://github.com/oklazeno/gkd-subscription) | oklazeno | 银行类补充 | 整合版                                   |
+
 
 ### 合并策略
 
