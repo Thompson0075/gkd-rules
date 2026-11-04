@@ -126,6 +126,7 @@ https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD
 某湃OS4因自身原因导致某信封号，因此关闭某信的无障碍致使部分某湃OS4设备无法使用无障碍。可使用自动化，已知一些功能可能无法正常使用。
 
 **Q：能否与其他订阅同时使用？**
+
 不建议。多订阅叠加会导致重复触发和误触。用一份就够了。
 
 **Q：会误点吗？**
