@@ -156,6 +156,8 @@ https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD
 - **梦念逍遥 (MengNianxiaoyao)** — 持续维护的优质规则
 - **奥怪 (aoguai)** — 精准的应用适配
 - **oklazeno** — 创新的整合思路与银行类补充
+- **Mrlc (mrlctate)** — 丰富实用的并入规则
+- **言木七 (yanmuq)** — 高效低误触的附加规则补充
 - **GKD 官方 (gkd-kit)** — 优秀的自动化引擎
 
 ---
