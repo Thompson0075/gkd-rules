@@ -1,9 +1,10 @@
 Thompson0075 GKD Subscription License
-版本 / Version: 2026-11-03
+版本 / Version: 2026-11-05
 
 Copyright (c) 2026 Thompson0075
 本订阅整合作品的编排、合并、去重与文档部分著作权归 Thompson0075 所有。
 各订阅源内的原始规则著作权仍归各原作者所有（见文末「第三方声明」）。
+其中本人自撰的规则以 MIT 许可开放使用与修改（见「四之三」）。
 
 ────────────────────────────────────────
 一、许可性质（License Nature）
@@ -140,6 +141,46 @@ Copyright (c) 2026 Thompson0075
 
 GKD 引擎本身（gkd-kit/gkd）以 GPL-3.0 发布，其商标与品牌归
 原作者所有。本作品与 GKD 官方无隶属、背书或合作关系。
+
+────────────────────────────────────────
+四之三、本人自撰规则（MIT 许可 / Self-authored Rules）
+────────────────────────────────────────
+
+规则由 Thompson0075 独立撰写的，不含任何上游订阅内容，
+著作权归 Thompson0075 所有。为便于社区自由使用与二次创作，
+上述规则以 MIT 许可发布，不受本文件第一节（许可性质）与
+第二节（明确禁止）中「仅供个人学习」「禁止二次分发」等
+限制的约束；就这些规则而言，以本节条款为准：
+
+你可以自由使用、复制、修改、合并、发布、分发、再许可及/或
+出售上述规则（含修改版），唯一条件是在副本中保留以上著作权
+声明与本许可声明。MIT License 全文如下（仅适用于上述自撰规则）：
+
+  Permission is hereby granted, free of charge, to any person
+  obtaining a copy of this software and associated documentation
+  files (the "Software"), to deal in the Software without
+  restriction, including without limitation the rights to use,
+  copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the
+  Software is furnished to do so, subject to the following
+  conditions:
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+  OTHER DEALINGS IN THE SOFTWARE.
+
+注意：MIT 仅覆盖上表所列自撰规则。整合包中其余来源规则的
+权利归属与使用限制保持不变（见「四、第三方声明」「四之二」）；
+将自撰规则与其余来源规则打包再分发时，你仍需自行评估并遵守
+其余来源的许可约束。
 
 ────────────────────────────────────────
 五、终止（Termination）
