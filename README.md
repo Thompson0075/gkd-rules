@@ -130,6 +130,7 @@ https://raw.githubusercontent.com/Thompson0075/gkd-rules/master/Thompson0075_GKD
 不建议。多订阅叠加会导致重复触发和误触。用一份就够了。
 
 **Q：会误点吗？**
+
 自动化点击存在固有风险。建议：
 
 1. 银行/支付类 App 只开「开屏广告」
